@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import HeroOverlay from '@/components/sections/hero/HeroOverlay';
+import HeroLogoBillboard from '@/components/sections/hero/HeroLogoBillboard';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 
 export default function LandingPage() {
@@ -28,11 +28,12 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroOverlay
-      title="SaleHoo"
+      <HeroLogoBillboard
+      logoText="SaleHoo"
       description="SaleHoo helps e-commerce entrepreneurs build their businesses by connecting them with a massive, vetted directory of trusted wholesale suppliers and providing the professional tools needed to conduct market research and source products profitably."
       buttons={[{ text: "Start Now" }]}
-      showDimOverlay={true}
+      background={{ variant: "plain" }}
+      logoClassName="text-pink-600 font-bold"
     />
   </div>
       </ReactLenis>
