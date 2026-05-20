@@ -34,6 +34,7 @@ export default function LandingPage() {
       buttons={[{ text: "Start Now", href: "/" }]}
       background={{ variant: "plain" }}
       logoClassName="text-pink-600 font-bold"
+      buttonClassName="px-8 py-4 text-lg"
     />
   </div>
       </ReactLenis>
