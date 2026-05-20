@@ -45,7 +45,6 @@ export default function LandingPage() {
       title="Build Your Wholesale Empire with SaleHoo"
       description="Access over 8,000 trusted suppliers, 2.5 million products, and the industry's best product research tools. Start sourcing profitably today."
       buttons={[{ text: "Get Started", href: "#pricing" }]}
-      imageSrc="http://img.b2bpic.net/free-photo/identity-copyright-branding-product-marketing-concept_53876-15829.jpg"
       showDimOverlay={true}
     />
   </div>
