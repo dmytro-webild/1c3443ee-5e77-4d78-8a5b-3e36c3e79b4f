@@ -67,6 +67,7 @@ export default function LandingPage() {
 
   <div id="metrics" data-section="metrics">
       <MetricCardTwo
+      useInvertedBackground={false}
       animationType="slide-up"
       gridVariant="uniform-all-items-equal"
       textboxLayout="default"
@@ -82,6 +83,7 @@ export default function LandingPage() {
 
   <div id="pricing" data-section="pricing">
       <PricingCardFive
+      useInvertedBackground={false}
       animationType="slide-up"
       textboxLayout="default"
       plans={[
@@ -95,6 +97,7 @@ export default function LandingPage() {
 
   <div id="social-proof" data-section="social-proof">
       <SocialProofOne
+      useInvertedBackground={false}
       textboxLayout="default"
       names={["Shopify", "Amazon", "eBay", "Walmart", "Etsy", "Target", "Wayfair"]}
       title="Trusted by Industry Leaders"
@@ -104,6 +107,7 @@ export default function LandingPage() {
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardFifteen
+      useInvertedBackground={false}
       testimonial="SaleHoo turned my side project into a full-time business. The verified suppliers saved me countless hours of research."
       rating={5}
       author="Sarah Miller"
@@ -115,6 +119,7 @@ export default function LandingPage() {
 
   <div id="faq" data-section="faq">
       <FaqSplitMedia
+      useInvertedBackground={false}
       textboxLayout="default"
       faqs={[
         { id: "1", title: "Are suppliers verified?", content: "Yes, we manually vet all suppliers." },
@@ -129,6 +134,7 @@ export default function LandingPage() {
 
   <div id="contact" data-section="contact">
       <ContactSplitForm
+      useInvertedBackground={false}
       title="Need Guidance?"
       description="Our team of sourcing experts is here to help you scale. Drop us a line."
       inputs={[
