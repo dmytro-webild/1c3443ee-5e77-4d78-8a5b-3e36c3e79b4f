@@ -31,7 +31,7 @@ export default function LandingPage() {
       <HeroLogoBillboard
       logoText="SaleHoo"
       description="SaleHoo helps e-commerce entrepreneurs build their businesses by connecting them with a massive, vetted directory of trusted wholesale suppliers and providing the professional tools needed to conduct market research and source products profitably."
-      buttons={[{ text: "Start Now", href: "/" }]}
+      buttons={[{ text: "Start Now", href: "https://www.salehoo.com" }]}
       background={{ variant: "plain" }}
       logoClassName="text-pink-600 font-bold"
       buttonClassName="px-8 py-4 text-lg"
